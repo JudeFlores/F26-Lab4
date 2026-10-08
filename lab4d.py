@@ -24,7 +24,7 @@ def compute(num1, num2, operator = "+"):
 def main():
       num1 = float(input("Enter the first number: "))
       num2 = float(input("Enter the second number: "))
-      operator = input("Enter an operator(+, -, *, /)(default is +): ")
+      operator = input("Enter an operator(+, -, *, /): ")
       print(compute(num1, num2, operator))
 
 if __name__ == "__main__":
